@@ -11,5 +11,47 @@ font-family: 'Raleway', sans-serif;
 body{
     width: 100%;
     height: 100vh;
-    background-color: rgb(150, 96, 212);
+    /* background-color: rgb(230, 221, 238); */
+    background-image: url("./market.jpg");
+  background-size: contain;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 20px;
+    width: 975px;
+    height: 520px;
+    background-color: rgba(185, 197, 201, 0.7); /* Adjust the alpha value (0.7) as needed */
+    border-radius: 12px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+  }
+  
+
+.container form{
+    width: 100%;
+    border: 1px solid rgb(82, 47, 46, 65);
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 10px;
+    /* border-radius: 15px; */
+    /* background-color: rgb(119, 188, 209); */
+    background-color: rgba(185, 197, 201, 0.2); /* Adjust the alpha value (0.7) as needed */
+
+
+}
+.container form i {
+    padding-left: 10px;
 }
