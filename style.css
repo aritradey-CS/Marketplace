@@ -24,7 +24,7 @@ body {
 .container {
   padding: 20px;
   width: 975px;
-  height: 520px;
+  height: 590px;
   background-color: rgba(
     185,
     197,
@@ -60,12 +60,7 @@ body {
   padding: 8px 10px;
   /* border-radius: 15px; */
   /* background-color: rgb(119, 188, 209); */
-  background-color: rgba(
-    185,
-    197,
-    201,
-    0.2
-  ); /* Adjust the alpha value (0.7) as needed */
+  background-color: rgba(185,197,201,0.2); /* Adjust the alpha value (0.7) as needed */
 }
 .container form i {
   padding-left: 10px;
