@@ -1,6 +1,15 @@
-const search = () =>{
+const search = () => {
     const searchbox = document.getElementById("search-item").value.toUpperCase();
-    const storeitems = document.getElementById("product-list")
-    const product = document.querySelectorAll(".product")
-    const pname = document.getElementsByTagName("h2")
-}
+    const products = document.querySelectorAll(".product");
+  
+    products.forEach((product) => {
+      const productName = product.querySelector(".p-details h2").textContent.toUpperCase();
+  
+      if (productName.includes(searchbox)) {
+        product.style.display = "flex";
+      } else {
+        product.style.display = "none";
+      }
+    });
+  };
+  
