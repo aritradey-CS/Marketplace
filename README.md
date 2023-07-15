@@ -1,6 +1,6 @@
 # Marketplace
 ![image](https://github.com/aritradey-CS/Marketplace/assets/81703791/eeccc64c-754d-4f6a-8fdf-e3dcccd908f0)
-
+https://aritradey-cs.github.io/Marketplace/
 
 Marketplace is a simple web application that showcases various products in an online marketplace. Users can search for products using the search functionality and browse through the available items.
 
